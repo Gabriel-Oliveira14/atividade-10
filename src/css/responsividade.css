@@ -1,0 +1,242 @@
+
+@media screen and ( max-width: 1220px){
+    .grid-contain{
+        display: grid;
+        grid-template-columns:  750px 250px;
+        grid-template-rows: 800px 200px;
+        grid-gap: 20px;
+    }
+    .conteudo{
+        grid-column: 1;
+    }
+    .box-rede{
+        grid-column: 1;
+        grid-row: 2;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .rede{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 600px;
+        height: 150px;
+    }
+    .anuncio{
+        grid-column: 2;
+    }
+}
+@media screen and ( max-width: 1060px){
+    .grid-contain{
+        display: grid;
+        grid-template-columns:  620px 150px;
+        grid-template-rows: 800px 200px;
+        grid-gap: 20px;
+    }
+    .conteudo{
+        grid-column: 1;
+    }
+    .conteudo img{
+        width: 500px;
+    }
+    .box-rede{
+        grid-column: 1;
+        grid-row: 2;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .rede{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 600px;
+        height: 200px;
+    }
+    .anuncio{
+        grid-column: 2;
+    }
+    .item-2{
+        width: 150px;
+    }
+}
+@media screen and ( max-width: 1060px){
+    .grid-contain{
+        display: grid;
+        grid-template-columns:  750px 250px;
+        grid-template-rows: 800px 200px;
+        grid-gap: 20px;
+    }
+    .conteudo{
+        grid-column: 1;
+    }
+    .box-rede{
+        grid-column: 1;
+        grid-row: 2;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .rede{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 600px;
+        height: 150px;
+    }
+    .anuncio{
+        grid-column: 2;
+    }
+}
+@media screen and ( max-width: 1000px){
+    .grid-contain{
+        display: grid;
+        grid-template-columns:  70vh;
+        grid-template-rows: 800px 100px;
+        grid-gap: 20px;
+    }
+    .conteudo{
+        grid-column: 1;
+    }
+    .conteudo img{
+        max-width: 80%;
+    }
+    .box-rede{
+        grid-column: 1;
+        grid-row: 2;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .rede{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width:400px;
+        height: 100px;
+    }
+    .item img{
+        width: 50px;
+    }
+    .anuncio{
+        grid-column: 1;
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+    }
+    .anuncio{
+        display: none;
+    }
+    .item-2{
+        width: 450px;
+        height: 150px;
+    }
+}
+
+@media screen and ( max-width: 850px ) and (orientation: landscape){
+    .header {
+        height: 32vh;
+        justify-content: space-between;
+        align-items: center;  
+}
+.grid-contain{
+    display: grid;
+    grid-template-columns:minmax(600px,700px);
+    grid-template-rows: 800px 100px;
+    grid-gap: 20px;
+}
+.conteudo{
+    grid-column: 1;
+}
+.conteudo img{
+    width: 70%;
+}
+.box-rede{
+    grid-column: 1;
+    grid-row: 2;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.rede{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width:400px;
+    height: 100px;
+}
+.item img{
+    width: 60px;
+}
+.anuncio{
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+.anuncio{
+    display: none;
+}
+.item-2{
+    width: 450px;
+    height: 150px;
+}
+}
+
+@media screen and ( max-width: 600px){
+    .header {
+        height: 22vh;
+        justify-content: space-between;
+        align-items: center;  
+}
+    .navigation .all{
+        display: none;
+}  
+    .login{
+    display: block;
+}
+.grid-contain{
+    display: grid;
+    grid-template-columns: minmax(300px,550px);
+    grid-template-rows: 800px 100px;
+    grid-gap: 20px;
+}
+.conteudo{
+    grid-column: 1;
+}
+.conteudo img{
+    width: 80%;
+}
+.box-rede{
+    grid-column: 1;
+    grid-row: 2;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.rede{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width:300px;
+    height: 100px;
+}
+.item img{
+    width: 50px;
+}
+.anuncio{
+    grid-column: 1;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+.anuncio{
+    display: none;
+}
+.item-2{
+    width: 450px;
+    height: 150px;
+}
+}
+

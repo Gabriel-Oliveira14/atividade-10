@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(255, 255, 255, 0.625);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+    flex-wrap: wrap;
+}
+.header img{
+    margin-left: 15px;
+    width: 100px;
+}
+.navigation ul{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+}
+.navigation a{
+    color: white;
+    font-size: 1.4em;
+    padding: 10px 20px;
+}
+.login{
+    background-color: rgba(133, 22, 157, 0.705);
+    border-radius: 20px;
+    border: 3px solid white;
+}
+.grid-contain{
+    display: grid;
+    grid-template-columns: 200px 750px 250px;
+    grid-template-rows: 100vh;
+    grid-gap: 20px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.box-rede{
+    grid-column: 1;
+    grid-row: 1;
+}
+.rede{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(212, 212, 219, 0.719);
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.27);
+    animation: ease-in-out 0.5;
+}
+.item{
+    padding: 5px;
+    background-color: rgba(133, 22, 157, 0.705);
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.27);
+}
+.rede :hover{
+    transform: scale(1.1);
+}
+.item img{
+    width: 100px;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:  rgba(212, 212, 219, 0.719);
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.27);
+    grid-column: 2;
+}
+.conteudo img{
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 1px 6px 15px rgba(0, 0, 0, 0.27);  
+}
+.text{
+    padding: 0px 40px;
+}
+.anuncio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 600px;
+    grid-column: 3;
+
+}
+.item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    background-color: rgba(107, 106, 106, 0.214);
+    box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.27);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: black;
+    margin-top: 30px;
+
+}
+.footer p{
+    color: white;
+}
