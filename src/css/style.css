@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(255, 255, 255, 0.625);
+    background-color:  rgba(212, 212, 219, 0.719);;
 }
 .header{
     display: flex;
@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(212, 212, 219, 0.719);
+    background-color: rgba(255, 255, 255, 0.908);
     height: 600px;
     border-radius: 20px;
     box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.27);
@@ -72,7 +72,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color:  rgba(212, 212, 219, 0.719);
+    background-color:  rgba(255, 255, 255, 0.885);
     justify-content: space-evenly;
     border-radius: 20px;
     box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.27);
@@ -102,7 +102,7 @@ body{
     align-items: center;
     width: 200px;
     height: 250px;
-    background-color: rgba(107, 106, 106, 0.214);
+    background-color: rgba(255, 255, 255, 0.873);
     box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.27);
 }
 .footer{
